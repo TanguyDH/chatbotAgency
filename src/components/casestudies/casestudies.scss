@@ -1,0 +1,47 @@
+
+
+.caseStudies{
+
+    width: 100rem;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+    @media only screen and (max-width: 1000px) {
+           width: 100%;
+        }
+    h3 {
+        text-align: center;
+        font-size: 3rem;
+        color: var(--color-secondary);
+        margin-bottom: 4rem;
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+
+}
+
+// .caseStudies__carousel {
+//     padding: 2rem 0;
+// }
+
+// .caseStudies__item {
+  
+//     color: black;
+//     box-shadow: 0 1rem 2rem rgba(black, .1);
+//     // width: 35rem;
+//     height: 40rem;
+//     border-radius: 15px;
+//     text-decoration: none;
+//     font-size: 1.5rem;
+//     margin-right: 2rem;
+//     @media only screen and (max-width: 500px) {
+//             margin-right: 0rem;
+//         }
+   
+   
+
+// }
